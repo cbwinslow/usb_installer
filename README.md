@@ -1,5 +1,3 @@
-# usb_installer
-usb installer
 # Ventoy Flasher
 
 **Ventoy Flasher** is a cross-platform (Linux/Windows) GUI tool designed for flashing USB drives with ISO images. It supports both traditional dd flashing and Ventoy-based flashing, while offering advanced features such as detailed USB drive information, reformatting (GPT/MBR), ISO hash validation, and multi-level logging—all wrapped in a neon green hacker-themed interface.
