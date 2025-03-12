@@ -38,4 +38,32 @@
 - **PyQt5**  
   Install via pip:
   ```bash
-  pip install PyQt5
+  pip install PyQt5 requests
+
+# Installation
+git clone https://github.com/yourusername/usb_installer.git
+cd usb_installer
+
+# Usage
+The project is split into two main modules:
+
+backend.py: Contains all core functionality (flashing, reformatting, ISO validation, etc.).
+gui.py: Contains the PyQt5 GUI, menus, and event handling logic.
+
+# To Run the Code:
+python gui.py
+
+# Project Structure
+usb_installer/
+├── README.md
+├── backend.py      # Core backend operations (FlashUtility, logging, etc.)
+├── gui.py          # GUI implementation (VentoyFlasherGUI) and main entry point
+└── LICENSE         # (If applicable)
+
+Disclaimer
+WARNING: Flashing and reformatting USB drives are destructive operations. Use this tool with caution—ensure you select the correct device and have backed up any important data. Administrative or sudo privileges may be required.
+
+
+
+
+  
