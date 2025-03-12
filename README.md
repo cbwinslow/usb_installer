@@ -41,7 +41,7 @@
   pip install PyQt5 requests
 
 # Installation
-git clone https://github.com/yourusername/usb_installer.git
+git clone https://github.com/cbwinslow/usb_installer.git
 cd usb_installer
 
 # Usage
